@@ -51,71 +51,72 @@ Answer: Mechanism for electric arc suppresion
 True
 False
 
-Answer:
+Answer: False
   
+------------------------------------------------------------------------------------------------------------------------------
   
   
 6.When can switches be operated?
 
 
 Only in an energized state
-
-
 Only in an arcing state
-
-
 Only in a de-energized state
-
-
 Only in a live state
+
+
+Answer: Only in a de-energized state
+
+------------------------------------------------------------------------------------------------------------------------------
 
 
 7.Each Switch gear system and substation is divided into individual fields. Which option below is not one of the individual fields?
 
 
 Current Transformer
-
-
 Generator
-
-
 Busbar
-
-
 Circuit breaker
 
-1 point
-8.Question 8
-The purpose of a grounding switch is to _______ the circuit breaker and provide a mechanism to automatically close the breaker.
 
-Enter answer here
+Answer: Generator
+
+----------------------------------------------------------------------------------------------
+
+
+8.The purpose of a grounding switch is to _______ the circuit breaker and provide a mechanism to automatically close the breaker.
+
+
+Answer:  ground the isolated circuit
+
+
+
+----------------------------------------------------------------------------------------------
 
 
 9.In relation to ensuring the reliability of electrical service, how is redundancy achieved?
 
+
 By arranging switches into several sections.
-
-
 By arranging Busbars into several sections.
-
-
 By arranging circuits in several sections.
-
-
 By arranging transformers into several sections.
+
+
+Answer: By arranging Busbars into several sections.
+
+
+----------------------------------------------------------------------------------------------
 
 
 10.What is the highest transmission voltage that high-voltage switches can handle?
 
 
 1M Volts
-
-
 2M Volts
-
-
 2.5M Volts
-
-
 3M Volts
+ 
+ Answer:1M Volts 
 
+----------------------------------------------------------------------------------------------
