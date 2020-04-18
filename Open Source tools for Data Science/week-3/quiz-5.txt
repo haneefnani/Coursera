@@ -1,0 +1,58 @@
+Quiz 5 - IBM Watson Studio
+
+
+1.What is the key difference between Skills Network Labs and IBM Watson Studio (Data Science Experience)?
+
+
+1)IBM Watson Studio is an enterprise-ready environment with scalability in mind, whereas Skills Network Labs is primarily a learning environment.
+2)IBM Watson Studio has a concept of "Projects" for Jupyter Notebooks, whereas Skills Netowrk Labs does not.
+3)There is no difference between IBM Watson Studio and Skills Network Labs
+
+Answer: 1
+
+--------------------------------------------------------------------------------------------------
+ 
+2.The only way to add notebooks to your project on IBM Watson Studio is to either create an empty notebook, or upload a notebook from your computer.
+
+
+True
+False
+
+Answer: False
+
+--------------------------------------------------------------------------------------------------
+ 
+3.Which of the follow options are correct? Select all that apply:
+
+
+1)You can add collaborators to projects
+2)Collaborators on a project can add comments to notebooks.
+3)Projects are public and anyone can access the notebooks or data within.
+4)You can use Python 3, R or Scala with Jupyter Notebooks on Watson Studio
+
+Answer: 1,2,4
+
+--------------------------------------------------------------------------------------------------
+ 
+4.In the upper right-hand corner of a Jupyter Notebook is the kernel interpreter (e.g., Python 3). Next to it is a circle. What does it mean if the circle is a full, black circle and what should you do?
+
+
+1)A black circle means that the kernel is not ready to execute more code. You can either wait, interrupt, or try to restart the kernel.
+2)A black circle means that the kernel is ready to execute code. You can run code as normal, which will be executed by the kernel as it is ready.
+3)A black circle means that the notebook is currently being saved, and you can wait a few seconds for it to finish saving.
+4)A black circle means that the notebook is now capable of running Python, R and Scala in the same notebook.
+
+Answer: 1
+
+--------------------------------------------------------------------------------------------------
+ 
+5.RStudio is available on IBM Watson Studio
+
+
+True
+False
+
+ 
+Answer: True
+
+--------------------------------------------------------------------------------------------------
