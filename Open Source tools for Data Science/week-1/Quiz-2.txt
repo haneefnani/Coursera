@@ -1,0 +1,61 @@
+Quiz 2 - Jupyter Notebooks
+
+1.What can you write in Jupyter Notebooks? Select all that apply:
+
+
+1)Code to be executed in one of the kernels (e.g. Python, R or Scala)
+2)Stylized text in a format called "Markdown".
+3)HTML code -- HTML can be written and rendered via Markdown cells.
+
+
+Answer: 1,2,3
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+2.What were Jupyter notebooks called before the name was changed to “Jupyter”?
+
+
+IPython notebooks
+IScala notebooks
+IR notebooks
+Saturn notebooks
+None of the above
+
+
+Answer:IPython notebooks
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+3.If you wrote "# Hi there" in Markdown, this would be the equivalent of writing <h1>Hi there</h1> in HTML. 
+(If you're not sure, now is a good time to search for a Markdown guide!)
+
+
+False
+True
+
+Answer: True
+
+
+
+4.Which of the following options are TRUE? Select all that apply.
+
+
+1)You can download and save Jupyter Notebooks as .ipynb files.
+2)You can change kernels within a Jupyter Notebook (e.g., to R or Python or Scala).
+3)You can document your code with stylized text using a formatting style called "Markleft"
+4)You can connect to databases from within Jupyter Notebooks.
+
+
+Answer: 1,2,4 
+
+
+5.Although you can change the kernel of the Jupyter Notebook between different programming languages 
+(e.g., Python, R, Scala), you cannot use multiple kernels within the same Jupyter notebook
+(e.g., running Python, R and Scala within the same notebook).
+
+
+True
+False
+
+Answer: True
