@@ -1,68 +1,60 @@
 1.Which of the following is not a switch gear component?
 
-
 Busbar
-
-
 Grounding Breaker
-
-
 Circuit Breaker
-
-
 Surge arresters
-
-
 Switches
 
+            
+Answer:Grounding Breaker
+-----------------------------------------------------------------------------------------------------------------------------  
+  
 2.Fill in the blank with the correct answer
 
 A ______ serves as a network node in physical terms and constitutes the start and end of individual lines.
 
-Enter answer here
-_____________________________
+Answer: Switchgear
 
 
+-----------------------------------------------------------------------------------------------------------------------
 
 3.How can a circuit breaker be reset?
 
 
 Manually
-
-
 Automatically
-
-
 All of the above
-
-
 None of the above
 
+
+Answer: All of the above
+  
+  
+--------------------------------------------------------------------------------------------------------------------------
 4.What do disconnect switches lack compared to circuit breakers?
 
 
 Lockout
-
-
 Mechanism for electric arc suppresion
-
-
 Lockable overlads
-
-
 Transformers
 
 
+Answer: Mechanism for electric arc suppresion
 
+  
+-------------------------------------------------------------------------------------------------------------------------------
 5.Disconnect switches can trip open when it detects an over current situation.
 
 
 True
-
-
 False
 
-
+Answer:
+  
+  
+  
 6.When can switches be operated?
 
 
