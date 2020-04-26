@@ -1,0 +1,105 @@
+<h2>Musical Track Database</h2>
+<p>This application will read an iTunes export file in XML and produce a properly normalized database with this structure:</p>
+<pre>
+CREATE TABLE Artist (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    name    TEXT UNIQUE
+);
+
+CREATE TABLE Genre (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    name    TEXT UNIQUE
+);
+
+CREATE TABLE Album (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    artist_id  INTEGER,
+    title   TEXT UNIQUE
+);
+
+CREATE TABLE Track (
+    id  INTEGER NOT NULL PRIMARY KEY 
+        AUTOINCREMENT UNIQUE,
+    title TEXT  UNIQUE,
+    album_id  INTEGER,
+    genre_id  INTEGER,
+    len INTEGER, rating INTEGER, count INTEGER
+);</pre>
+<p>
+If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
+
+You can use this code as a starting point for your application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used for this assignment. You can export your own tracks from iTunes and create a database, but for the database that you turn in for this assignment, only use the Library.xml data that is provided.
+
+To grade this assignment, the program will run a query like this on your uploaded database and look for the data it expects to see:
+</p>
+<pre>
+SELECT Track.title, Artist.name, Album.title, Genre.name 
+    FROM Track JOIN Genre JOIN Album JOIN Artist 
+    ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
+        AND Album.artist_id = Artist.id
+    ORDER BY Artist.name LIMIT 3
+</pre>
+
+
+<p>The expected result of the modified query on your database is: (shown here as a simple HTML table with titles)</p>
+
+
+<table border="2">
+<tbody><tr>
+<th>Track</th><th>Artist</th><th>Album</th><th>Genre</th>
+</tr>
+<tr><td>Chase the Ace</td><td>AC/DC</td><td>Who Made Who</td><td>Rock</td></tr><tr>
+</tr><tr><td>D.T.</td><td>AC/DC</td><td>Who Made Who</td><td>Rock</td></tr><tr>
+</tr><tr><td>For Those About To Rock (We Salute You)</td><td>AC/DC</td><td>Who Made Who</td><td>Rock</td></tr><tr>
+
+<script src="https://static.tsugi.org/js/jquery-1.11.3.js"></script>
+<script src="https://static.tsugi.org/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script src="https://static.tsugi.org/js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="https://static.tsugi.org/js/jquery.timeago-1.6.3.js"></script>
+<script src="https://static.tsugi.org/js/handlebars-v4.0.2.js"></script>
+<script src="https://static.tsugi.org/tmpljs-3.8.0/tmpl.min.js"></script>
+<script src="https://static.tsugi.org/js/tsugiscripts.js"></script>
+<script type="text/javascript">
+    HEARTBEAT_TIMEOUT = setTimeout(doHeartBeat, _TSUGI.heartbeat);
+    tsugiEmbedMenu();
+</script>
+<script>
+// PHP VERSION 7.0 and 7.1 HACK
+// https://stackoverflow.com/questions/44980654/how-can-i-make-trans-sid-cookie-less-sessions-work-in-php-7-1
+$('a').each(function (x) {
+    var href = $(this).attr('href');
+    if ( ! href ) return;
+    if ( ! href.startsWith('#') ) return;
+    var pos = href.indexOf('/?');
+    if ( pos < 1 ) return;
+    console.dir('Patching broken # href='+href);
+    href = href.substring(0,pos);
+    $(this).attr('href', href);
+});
+console.log('Checking malformed href for php 7.0');
+$('a').each(function (x) {
+    var href = $(this).attr('href');
+    var sess_name = 'PHPSESSID';
+    var sess_id = 'a987a8a3fefea88e1f0e6974b5d7df82';
+    if ( ! href ) return;
+    if ( href.startsWith('#') ) return;
+    if ( href.startsWith('http://') ) return;
+    if ( href.startsWith('javascript:') ) return;
+    if ( href.startsWith('https://') ) return;
+    if ( href.startsWith('//') ) return;
+    if ( href.indexOf(sess_name) > 0 ) return;
+    if ( href.indexOf('?') > 0 ) {
+        href = href + '&';
+    } else {
+        href = href + '?';
+    }
+    href = href + sess_name + '=' + sess_id;
+    console.dir('Patching missing session href='+href);
+    $(this).attr('href', href);
+});
+
+</script>
+
+
+
+</tr></tbody></table>
