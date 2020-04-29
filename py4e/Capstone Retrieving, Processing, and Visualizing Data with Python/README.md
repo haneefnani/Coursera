@@ -22,18 +22,18 @@ to type the following command before running this code:
 
 http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
 
-Mac: rm spider.sqlite
-Mac: python3 spider.py
+Mac: rm spider.sqlite 
+Mac: python3 spider.py 
 
-Win: del spider.sqlite
-Win: spider.py
+Win: del spider.sqlite 
+Win: spider.py 
 
-Enter web url or enter: http://www.dr-chuck.com/
-['http://www.dr-chuck.com']
-How many pages:2
-1 http://www.dr-chuck.com/ 12
+Enter web url or enter: http://www.dr-chuck.com/ 
+['http://www.dr-chuck.com'] 
+How many pages:2 
+1 http://www.dr-chuck.com/ 12 
 2 http://www.dr-chuck.com/csev-blog/ 57  
-*How many pages:*
+**How many pages:** 
 
 In this sample run, we told it to crawl a website and retrieve two 
 pages.  If you restart the program again and tell it to crawl more
@@ -42,15 +42,15 @@ restart it goes to a random non-crawled page and starts there.  So
 each successive run of spider.py is additive.
 
 Mac: python3 spider.py 
-Win: spider.py
+Win: spider.py 
 
 Enter web url or enter: http://www.dr-chuck.com/
 ['http://www.dr-chuck.com']
-How many pages:3
-3 http://www.dr-chuck.com/csev-blog 57
-4 http://www.dr-chuck.com/dr-chuck/resume/speaking.htm 1
-5 http://www.dr-chuck.com/dr-chuck/resume/index.htm 13
-How many pages:
+How many pages:3 
+3 http://www.dr-chuck.com/csev-blog 57 
+4 http://www.dr-chuck.com/dr-chuck/resume/speaking.htm 1 
+5 http://www.dr-chuck.com/dr-chuck/resume/index.htm 13 
+**How many pages:**
 
 You can have multiple starting points in the same database - 
 within the program these are called "webs".   The spider
