@@ -1,5 +1,5 @@
 <h1>Instructions</h1>
-<p>
+<p> 
 If you don't already have it, install the SQLite Browser from
 <a href="http://sqlitebrowser.org/" target="_blank">
 http://sqlitebrowser.org/</a>.
